@@ -35,7 +35,7 @@ array.forEach(function(element, index) {
 # Map
 > O método map() invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
 
-### Sintaxe
+#### Sintaxe
 ```javascript
 array.map(function(element, index) {
   declaração
@@ -45,7 +45,7 @@ array.map(function(element, index) {
 # Filter
 > O método filter() cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
 
-### Sintaxe
+#### Sintaxe
 ```javascript
 let newArray = array.filter(function(element, index) {
   declaração
@@ -57,7 +57,7 @@ let newArray = array.filter(function(element, index) {
 
 > O valor de retorno da sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
 
-  ### Sintaxe
+  #### Sintaxe
   ```javascript
   array.reduce(function(acumulador, valorAtual) {
     declaração
@@ -86,7 +86,7 @@ let newArray = array.filter(function(element, index) {
 # Some
 O método some() testa se algum dos elementos no array passam no teste implementado pela função atribuída.
 
-### Sintaxe
+#### Sintaxe
 arr.some(callback[, thisArg])
 
 some() executa a função callback uma vez para cada elemento presente no array até achar um onde o callback retorne um valor true. Se em qualquer dos elementos o valor for encontrado, some() imediatamente retorna true. Caso contrario, some() retorna false.
