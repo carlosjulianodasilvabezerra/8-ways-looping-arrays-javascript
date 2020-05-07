@@ -2,7 +2,7 @@
 # 8 Formas de usar Looping em Arrays no JavaScript 
 
 # For 
-A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.
+> A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.
 ### Syntax
   ```javascript
   for (let i = 0; condição; i++) {
@@ -13,7 +13,7 @@ A instrução for cria um loop que consiste em três expressões opcionais, dent
   
 
 # While
-  A declaração while cria um laço que executa uma rotina especifica enquanto a condição de teste for avaliada como verdadeira. A condição é avaliada antes da execução da rotina.
+> A declaração while cria um laço que executa uma rotina especifica enquanto a condição de teste for avaliada como verdadeira. A condição é avaliada antes da execução da rotina.
 ### Syntax
  ```javascript
   while (condição) {
