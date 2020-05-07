@@ -67,15 +67,15 @@ let newArray = array.filter(function(element, index) {
   ## parâmetros
   ##### function
   > é executada em cada valor no array (exceto no primeiro, se nenhum valorInicial for passado); recebe quatro argumentos:
-  - acumulador
-  O valor retornado na última invocação do callback, ou o argumento valorInicial, se fornecido (exemplo abaixo).
-  - valorAtual
-  O elemento atual que está sendo processado no array.
-- valorInicial  
-Opcional. Valor a ser usado como o primeiro argumento da primeira chamada da função callback. Se nenhum valorInicial é fornecido, o primeiro elemento do array será usado como o valor inicial do acumulador e o valorAtual não será lido. Chamar reduce() em uma array vazia sem valor inicial retornará um erro.
+  ##### acumulador
+  > O valor retornado na última invocação do callback, ou o argumento valorInicial, se fornecido (exemplo abaixo).
+  ##### valorAtual
+  > O elemento atual que está sendo processado no array.
+  ##### valorInicial  
+> Opcional. Valor a ser usado como o primeiro argumento da primeira chamada da função callback. Se nenhum valorInicial é fornecido, o primeiro elemento do array será usado como o valor inicial do acumulador e o valorAtual não será lido. Chamar reduce() em uma array vazia sem valor inicial retornará um erro.
 
 # Every  
-  O método every() testa se todos os elementos do array passam pelo teste implementado pela função fornecida.
+  > O método every() testa se todos os elementos do array passam pelo teste implementado pela função fornecida.
 
   ### Sintaxe
   arr.every(callback[, thisArg])
