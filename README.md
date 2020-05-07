@@ -22,9 +22,16 @@ A instrução for cria um loop que consiste em três expressões opcionais, dent
   ``` 
 
 # ForEach
-  O forEach executa o callback fornecido uma vez para cada elemento da ordem com um valor atribuido. Ele não é invocado para propriedades de índices que foram deletados ou que não foram inicializados (por ex. em arrays esparsos).
+O forEach executa o callback fornecido uma vez para cada elemento da ordem com um valor atribuido. Ele não é invocado para propriedades 
+de índices que foram deletados ou que não foram inicializados (por ex. em arrays esparsos).
 
-  Obs: O seu return é sempre undefined
+```javascript
+array.map(function(element, index) {
+  declaração
+})
+```
+
+Obs: O seu return é sempre undefined
 
 # Map
   O método map() invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
