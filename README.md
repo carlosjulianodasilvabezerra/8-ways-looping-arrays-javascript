@@ -30,7 +30,7 @@ array.forEach(function(element, index) {
 })
 ```
 
-Obs: O seu return é sempre undefined
+> Obs: O seu return é sempre undefined
 
 # Map
 > O método map() invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
