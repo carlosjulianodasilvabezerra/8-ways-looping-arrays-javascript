@@ -22,8 +22,7 @@
   ``` 
 
 # ForEach
-O forEach executa o callback fornecido uma vez para cada elemento da ordem com um valor atribuido. Ele não é invocado para propriedades 
-de índices que foram deletados ou que não foram inicializados (por ex. em arrays esparsos).
+> O forEach executa o callback fornecido uma vez para cada elemento da ordem com um valor atribuido. Ele não é invocado para propriedades de índices que foram deletados ou que não foram inicializados (por ex. em arrays esparsos).
 
 ```javascript
 array.forEach(function(element, index) {
@@ -34,7 +33,7 @@ array.forEach(function(element, index) {
 Obs: O seu return é sempre undefined
 
 # Map
-  O método map() invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
+> O método map() invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
 
 ## Sintaxe
 ```javascript
@@ -44,7 +43,7 @@ array.map(function(element, index) {
 ```
 
 # Filter
-  O método filter() cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
+> O método filter() cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
 
 ### Sintaxe
 ```javascript
@@ -54,9 +53,9 @@ let newArray = array.filter(function(element, index) {
 ```
 
 # Reduce  
-O método reduce() executa uma função redutor (fornecida por você) para cada elemento do array, resultando num único valor de retorno.
+> O método reduce() executa uma função redutor (fornecida por você) para cada elemento do array, resultando num único valor de retorno.
 
-O valor de retorno da sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
+> O valor de retorno da sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
 
   ### Sintaxe
   ```javascript
