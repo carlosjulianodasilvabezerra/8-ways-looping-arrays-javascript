@@ -3,7 +3,7 @@
 
 # For 
 > A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.
-### Syntax
+#### Syntax
   ```javascript
   for (let i = 0; condição; i++) {
     declaração
@@ -14,7 +14,7 @@
 
 # While
 > A declaração while cria um laço que executa uma rotina especifica enquanto a condição de teste for avaliada como verdadeira. A condição é avaliada antes da execução da rotina.
-### Syntax
+#### Syntax
  ```javascript
   while (condição) {
     rotina
@@ -35,7 +35,7 @@ array.forEach(function(element, index) {
 # Map
 > O método map() invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
 
-## Sintaxe
+### Sintaxe
 ```javascript
 array.map(function(element, index) {
   declaração
