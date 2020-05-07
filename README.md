@@ -1,5 +1,5 @@
 
-                                         # 8 Formas de usar Looping em Arrays no JavaScript 
+# 8 Formas de usar Looping em Arrays no JavaScript 
 
 # For 
   A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.
