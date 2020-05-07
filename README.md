@@ -30,7 +30,11 @@ A instrução for cria um loop que consiste em três expressões opcionais, dent
   O método map() invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
 
 ## Sintaxe
-  arr.map(callback[, thisArg])
+```javascript
+array.map(function(element, index) {
+  declaração
+})
+```
 
 # Filter
   O método filter() cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
