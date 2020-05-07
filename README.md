@@ -79,14 +79,23 @@ let newArray = array.filter(function(element, index) {
 
   ### Sintaxe
   arr.every(callback[, thisArg])
+  ```javascript
+  array.every(function(element) {
+    declaração
+  })
+  ```
 
-  ## Valor de retorno
-  true se a função de callback retorna um valor truthy para cada um dos elementos do array; caso contrário, false.
+  #### Valor de retorno
+  >true se a função de callback retorna um valor truthy para cada um dos elementos do array; caso contrário, false.
 
 # Some
-O método some() testa se algum dos elementos no array passam no teste implementado pela função atribuída.
+> O método some() testa se algum dos elementos no array passam no teste implementado pela função atribuída.
 
 #### Sintaxe
-arr.some(callback[, thisArg])
+  ```javascript
+  array.some(function(element) {
+    declaração
+  })
+  ```
 
-some() executa a função callback uma vez para cada elemento presente no array até achar um onde o callback retorne um valor true. Se em qualquer dos elementos o valor for encontrado, some() imediatamente retorna true. Caso contrario, some() retorna false.
+> some() executa a função callback uma vez para cada elemento presente no array até achar um onde o callback retorne um valor true. Se em qualquer dos elementos o valor for encontrado, some() imediatamente retorna true. Caso contrario, some() retorna false.
