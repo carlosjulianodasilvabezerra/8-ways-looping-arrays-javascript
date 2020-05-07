@@ -53,10 +53,6 @@ let newArray = array.filter(function(element, index) {
 })
 ```
 
-callback é invocado com três argumentos:
-- o valor do elemento
-- o índice do elemento
-
 # Reduce  
 O método reduce() executa uma função redutor (fornecida por você) para cada elemento do array, resultando num único valor de retorno.
 
