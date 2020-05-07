@@ -15,9 +15,11 @@ A instrução for cria um loop que consiste em três expressões opcionais, dent
 # While
   A declaração while cria um laço que executa uma rotina especifica enquanto a condição de teste for avaliada como verdadeira. A condição é avaliada antes da execução da rotina.
 ### Syntax
+ ```javascript
   while (condição) {
     rotina
   }
+  ``` 
 
 # ForEach
   O forEach executa o callback fornecido uma vez para cada elemento da ordem com um valor atribuido. Ele não é invocado para propriedades de índices que foram deletados ou que não foram inicializados (por ex. em arrays esparsos).
