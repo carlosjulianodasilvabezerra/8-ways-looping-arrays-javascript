@@ -65,8 +65,8 @@ let newArray = array.filter(function(element, index) {
 ```
 
   ## parâmetros
-  - function
-  Função que é executada em cada valor no array (exceto no primeiro, se nenhum valorInicial for passado); recebe quatro argumentos:
+  - function.
+  é executada em cada valor no array (exceto no primeiro, se nenhum valorInicial for passado); recebe quatro argumentos:
   - acumulador
   O valor retornado na última invocação do callback, ou o argumento valorInicial, se fornecido (exemplo abaixo).
   - valorAtual
