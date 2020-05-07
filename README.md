@@ -26,7 +26,7 @@ O forEach executa o callback fornecido uma vez para cada elemento da ordem com u
 de índices que foram deletados ou que não foram inicializados (por ex. em arrays esparsos).
 
 ```javascript
-array.map(function(element, index) {
+array.forEach(function(element, index) {
   declaração
 })
 ```
