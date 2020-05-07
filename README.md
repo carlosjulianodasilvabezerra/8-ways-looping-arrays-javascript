@@ -4,9 +4,13 @@
 # For 
 A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.
 ### Syntax
-  > for (let i = 0; condição; i++) {
-    - declaração
+  ````javascript
+  for (let i = 0; condição; i++) {
+    declaração
   }
+  
+  ``
+  
   
 
 # While
