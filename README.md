@@ -50,34 +50,27 @@ callback é invocado com três argumentos:
 - o valor do elemento
 - o índice do elemento
 
-# Reduce
-  O método reduce() executa uma função redutor (fornecida por você) para cada elemento do array, resultando num único valor de retorno.
+# Reduce  
+O método reduce() executa uma função redutor (fornecida por você) para cada elemento do array, resultando num único valor de retorno.
 
-  ## A função reducer é alimentada por quatro parâmetros:
-
-  - Acumulador
-  - Valor Atual
-  - Index Atual
-  - Array original
-
-  O valor de retorno da sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
+O valor de retorno da sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
 
   ### Sintaxe
   ```javascript
-  array.reduce(function( acumulador, valorAtual) {
+  array.reduce(function(acumulador, valorAtual) {
     declaração
   }, valorInicial)
 ```
 
   ## parâmetros
-  ### function
+  - function
   Função que é executada em cada valor no array (exceto no primeiro, se nenhum valorInicial for passado); recebe quatro argumentos:
-  ### acumulador
+  - acumulador
   O valor retornado na última invocação do callback, ou o argumento valorInicial, se fornecido (exemplo abaixo).
-  ### valorAtual
+  - valorAtual
   O elemento atual que está sendo processado no array.
-  #### valorInicial
-  Opcional. Valor a ser usado como o primeiro argumento da primeira chamada da função callback. Se nenhum valorInicial é fornecido, o primeiro elemento do array será usado como o valor inicial do acumulador e o valorAtual não será lido. Chamar reduce() em uma array vazia sem valor inicial retornará um erro.
+- valorInicial  
+Opcional. Valor a ser usado como o primeiro argumento da primeira chamada da função callback. Se nenhum valorInicial é fornecido, o primeiro elemento do array será usado como o valor inicial do acumulador e o valorAtual não será lido. Chamar reduce() em uma array vazia sem valor inicial retornará um erro.
 
 # Every  
   O método every() testa se todos os elementos do array passam pelo teste implementado pela função fornecida.
