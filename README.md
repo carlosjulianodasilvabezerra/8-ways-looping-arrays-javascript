@@ -2,14 +2,14 @@
 # 8 Formas de usar Looping em Arrays no JavaScript 
 
 # For 
-  A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.
-## Syntax
-  for ([inicialização]; [condição]; [expressão final])
-  declaração
+A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.
+### Syntax
+  > for ([inicialização]; [condição]; [expressão final])
+  > declaração
 
 # While
   A declaração while cria um laço que executa uma rotina especifica enquanto a condição de teste for avaliada como verdadeira. A condição é avaliada antes da execução da rotina.
-## Syntax
+### Syntax
   while (condição) {
     rotina
   }
@@ -28,7 +28,7 @@
 # Filter
   O método filter() cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
 
-## Sintaxe
+### Sintaxe
 var newArray = array.filter(callback[, thisArg])
 
 
@@ -50,7 +50,7 @@ callback é invocado com três argumentos:
 
   O valor de retorno da sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
 
-  ## Sintaxe
+  ### Sintaxe
   array.reduce(callback( acumulador, valorAtual[, index[, array]] )[, valorInicial]))
 
   ## parâmetros
@@ -70,7 +70,7 @@ callback é invocado com três argumentos:
 # Every  
   O método every() testa se todos os elementos do array passam pelo teste implementado pela função fornecida.
 
-  ## Sintaxe
+  ### Sintaxe
   arr.every(callback[, thisArg])
 
   ## Valor de retorno
@@ -79,7 +79,7 @@ callback é invocado com três argumentos:
 # Some
 O método some() testa se algum dos elementos no array passam no teste implementado pela função atribuída.
 
-## Sintaxe
+### Sintaxe
 arr.some(callback[, thisArg])
 
 some() executa a função callback uma vez para cada elemento presente no array até achar um onde o callback retorne um valor true. Se em qualquer dos elementos o valor for encontrado, some() imediatamente retorna true. Caso contrario, some() retorna false.
